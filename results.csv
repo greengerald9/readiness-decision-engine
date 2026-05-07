@@ -1,0 +1,16 @@
+name,status,reason
+client_1,FLAG,Low energy or high soreness
+client_1,FLAG,Low energy or high soreness
+client_1,FLAG,Low energy or high soreness
+client_1,FLAG,Low energy or high soreness
+client_1,READY,Stable
+worker_2,READY,Stable
+worker_2,READY,Stable
+worker_2,FLAG,Low energy or high soreness
+worker_2,READY,Stable
+worker_2,READY,Stable
+worker_1,READY,Stable
+worker_1,READY,Stable
+worker_1,READY,Stable
+worker_1,READY,Stable
+worker_1,READY,Stable

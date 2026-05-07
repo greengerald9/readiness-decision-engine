@@ -1,0 +1,16 @@
+name ,environment ,energy ,soreness ,load,movement
+client_1,MSK,2,3,Moderate,1
+client_1,MSK,2,9,Low,2
+client_1,MSK,2,2,Low,2
+client_1,MSK,2,1,Moderate,2
+client_1,MSK,3,2,Moderate,3
+worker_2,Industrial,5,None,Moderate,None
+worker_2,Industrial,4,None,High,None
+worker_2,Industrial,2,None,Low,None
+worker_2,Industrial,5,None,Moderate,None
+worker_2,Industrial,5,None,Moderate,None
+worker_1,Tactical,5,None,Moderate,None
+worker_1,Tactical,4,None,Moderate,None
+worker_1,Tactical,5,None,Low,None
+worker_1,Tactical,5,None,High,None
+worker_1,Tactical,3,None,Moderate,None
