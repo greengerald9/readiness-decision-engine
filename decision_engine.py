@@ -15,27 +15,76 @@ for index, row in df.iterrows():
     energy = row["energy"]
     soreness = row["soreness"]
 
-    if energy <= 2 or soreness >= 4:
+if energy <= 2:
 
-        status = "MODIFY"
-        reason = "Low energy or high soreness"
+    status = "MODIFY"
+    reason = "Low energy"
+    action = "Reduce training intensity"
+    risk = "Moderate"
 
-    else:
+elif soreness >= 4:
 
-        status = "READY"
-        reason = "Stable"
+    status = "MODIFY"
+    reason = "High soreness"
+    action = "Monitor recovery and workload"
+    risk = "High"
 
-    results.append({
-        "name": row["name"],
-        "status": status,
-        "reason": reason
-    })
+
+elif row["movement"] <= 1:
+
+    status = "MODIFY"
+    reason = "Poor movement quality"
+    action = "Add corrective movement work"
+    risk = "Moderate"
+
+
+else:
+
+    status = "READY"
+    reason = "Stable"
+    action = "Continue normal training"
+    risk = "Low"
+
+
+
+
+ 
+
+results.append({
+    "name": row["name"],
+    "environment": row["environment"],
+    "energy": energy,
+    "soreness": soreness,
+    "status": status,
+    "reason": reason,
+    "action": action,
+    "risk": risk
+
+})
 
 results_df = pd.DataFrame(results)
 
 results_df.to_csv("results.csv", index=False)
 
-print(results_df)
+print("\nREADINESS DECISION OUTPUT\n")
+
+for index, row in results_df.iterrows():
+
+    print(
+        row["name"],
+        "|",
+        row["environment"],
+        "|",
+        row["status"],
+        "|",
+        row["reason"],
+        "|",
+        row["action"], 
+        "|",
+        row["risk"],
+
+    )
+
 
 
 
