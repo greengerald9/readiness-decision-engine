@@ -46,3 +46,6 @@ CSV Data → Python Logic → Readiness Decision Output
 - Low energy → MODIFY
 - High soreness → MODIFY
 - Stable metrics → READY
+## Example Workflow Output
+
+![Workflow Output]()
