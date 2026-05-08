@@ -17,7 +17,7 @@ for index, row in df.iterrows():
 
     if energy <= 2 or soreness >= 4:
 
-        status = "FLAG"
+        status = "MODIFY"
         reason = "Low energy or high soreness"
 
     else:
