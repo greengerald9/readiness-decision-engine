@@ -1,16 +1,2 @@
-name,status,reason
-client_1,MODIFY,Low energy or high soreness
-client_1,MODIFY,Low energy or high soreness
-client_1,MODIFY,Low energy or high soreness
-client_1,MODIFY,Low energy or high soreness
-client_1,READY,Stable
-athlete_2,READY,Stable
-athlete_2,READY,Stable
-athlete_2,MODIFY,Low energy or high soreness
-athlete_2,READY,Stable
-athlete_2,READY,Stable
-athlete_1,READY,Stable
-athlete_1,READY,Stable
-athlete_1,READY,Stable
-athlete_1,READY,Stable
-athlete_1,READY,Stable
+name,environment,energy,soreness,status,reason,action,risk
+athlete_1,Tactical,3,,READY,Stable,Continue normal training,Low
