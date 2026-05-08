@@ -48,4 +48,4 @@ CSV Data → Python Logic → Readiness Decision Output
 - Stable metrics → READY
 ## Example Workflow Output
 
-![Workflow Output]()
+![Workflow Output](https://github.com/greengerald9/readiness-decision-engine/blob/main/workflow_%20output.png%20.png?raw=true)
