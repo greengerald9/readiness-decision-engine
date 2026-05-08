@@ -1,0 +1,8 @@
+{
+  "name": "athlete_1",
+  "environment": "MSK",
+  "status": "MODIFY",
+  "reason": "High soreness",
+  "action": "Monitor recovery and workload",
+  "risk": "High"
+}
