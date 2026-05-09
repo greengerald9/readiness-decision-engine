@@ -49,3 +49,9 @@ CSV Data → Python Logic → Readiness Decision Output
 ## Example Workflow Output
 
 ![Workflow Output](https://github.com/greengerald9/readiness-decision-engine/blob/main/workflow_%20output.png%20.png?raw=true)
+## Azure Function API Prototype
+
+Example Azure Function API response for readiness decision support.
+
+![Azure Function API](azure_function_api.png)
+
